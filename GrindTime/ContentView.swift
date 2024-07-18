@@ -55,15 +55,12 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 
-
-
 struct WorkoutPlan: Identifiable {
     let id = UUID()
     let name: String
     let description: String
     let exercises: [String]
 }
-
 
 struct WorkoutPlanView: View {
     @ObservedObject var networkManager = NetworkManager()
@@ -186,6 +183,7 @@ struct WorkoutPlanView: View {
 }
 
 
+
 struct WorkoutPlanView_Previews: PreviewProvider {
     static var previews: some View {
         WorkoutPlanView(personalWorkoutManager: PersonalWorkoutManager())
@@ -289,6 +287,7 @@ struct WorkoutSessionsView_Previews: PreviewProvider {
         WorkoutSessionsView(personalWorkoutManager: PersonalWorkoutManager())
     }
 }
+
 
 
 
