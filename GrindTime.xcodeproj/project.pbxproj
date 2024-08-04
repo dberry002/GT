@@ -15,6 +15,8 @@
 		A97D39F32C488ABB00A64422 /* GrindTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D39F22C488ABB00A64422 /* GrindTimeUITests.swift */; };
 		A97D39F52C488ABB00A64422 /* GrindTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D39F42C488ABB00A64422 /* GrindTimeUITestsLaunchTests.swift */; };
 		A97D3A022C491F3800A64422 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D3A012C491F3800A64422 /* NetworkManager.swift */; };
+		A9C4636E2C60207A00EC2453 /* WorkoutSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4636D2C60207A00EC2453 /* WorkoutSessionView.swift */; };
+		A9C463702C6020A600EC2453 /* WorkoutPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4636F2C6020A600EC2453 /* WorkoutPlanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		A97D39F22C488ABB00A64422 /* GrindTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrindTimeUITests.swift; sourceTree = "<group>"; };
 		A97D39F42C488ABB00A64422 /* GrindTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrindTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A97D3A012C491F3800A64422 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A9C4636D2C60207A00EC2453 /* WorkoutSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionView.swift; sourceTree = "<group>"; };
+		A9C4636F2C6020A600EC2453 /* WorkoutPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				A97D39D92C488AB900A64422 /* ContentView.swift */,
 				A97D39DB2C488ABB00A64422 /* Assets.xcassets */,
 				A97D39DD2C488ABB00A64422 /* Preview Content */,
+				A9C4636D2C60207A00EC2453 /* WorkoutSessionView.swift */,
+				A9C4636F2C6020A600EC2453 /* WorkoutPlanView.swift */,
 			);
 			path = GrindTime;
 			sourceTree = "<group>";
@@ -261,8 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A97D3A022C491F3800A64422 /* NetworkManager.swift in Sources */,
+				A9C4636E2C60207A00EC2453 /* WorkoutSessionView.swift in Sources */,
 				A97D39DA2C488AB900A64422 /* ContentView.swift in Sources */,
 				A97D39D82C488AB900A64422 /* GrindTimeApp.swift in Sources */,
+				A9C463702C6020A600EC2453 /* WorkoutPlanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
