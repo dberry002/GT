@@ -63,12 +63,3 @@ struct WorkoutPlan: Identifiable {
     let description: String
     let exercises: [String]
 }
-
-
-
-
-
-
-
-
-

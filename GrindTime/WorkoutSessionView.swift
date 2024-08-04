@@ -56,3 +56,4 @@ struct WorkoutSessionsView_Previews: PreviewProvider {
         WorkoutSessionsView(personalWorkoutManager: PersonalWorkoutManager())
     }
 }
+

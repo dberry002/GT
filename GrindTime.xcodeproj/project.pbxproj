@@ -17,6 +17,12 @@
 		A97D3A022C491F3800A64422 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D3A012C491F3800A64422 /* NetworkManager.swift */; };
 		A9C4636E2C60207A00EC2453 /* WorkoutSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4636D2C60207A00EC2453 /* WorkoutSessionView.swift */; };
 		A9C463702C6020A600EC2453 /* WorkoutPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4636F2C6020A600EC2453 /* WorkoutPlanView.swift */; };
+		A9C463722C6041A900EC2453 /* ExerciseRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C463712C6041A900EC2453 /* ExerciseRecord.swift */; };
+		A9C4637D2C60DCC100EC2453 /* exercise_interactions.csv.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C463732C60DCC100EC2453 /* exercise_interactions.csv.json */; };
+		A9C4637E2C60DCC100EC2453 /* exercise_training.csv.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C463742C60DCC100EC2453 /* exercise_training.csv.json */; };
+		A9C4637F2C60DCC100EC2453 /* GrindTime 1.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C463762C60DCC100EC2453 /* GrindTime 1.json */; };
+		A9C463802C60DCC100EC2453 /* GrindTime 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A9C463782C60DCC100EC2453 /* GrindTime 1.mlmodel */; };
+		A9C463812C60DCC100EC2453 /* Project.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C4637B2C60DCC100EC2453 /* Project.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,12 @@
 		A97D3A012C491F3800A64422 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A9C4636D2C60207A00EC2453 /* WorkoutSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionView.swift; sourceTree = "<group>"; };
 		A9C4636F2C6020A600EC2453 /* WorkoutPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanView.swift; sourceTree = "<group>"; };
+		A9C463712C6041A900EC2453 /* ExerciseRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRecord.swift; sourceTree = "<group>"; };
+		A9C463732C60DCC100EC2453 /* exercise_interactions.csv.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercise_interactions.csv.json; sourceTree = "<group>"; };
+		A9C463742C60DCC100EC2453 /* exercise_training.csv.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercise_training.csv.json; sourceTree = "<group>"; };
+		A9C463762C60DCC100EC2453 /* GrindTime 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "GrindTime 1.json"; sourceTree = "<group>"; };
+		A9C463782C60DCC100EC2453 /* GrindTime 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "GrindTime 1.mlmodel"; sourceTree = "<group>"; };
+		A9C4637B2C60DCC100EC2453 /* Project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Project.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +115,13 @@
 			children = (
 				A97D39D72C488AB900A64422 /* GrindTimeApp.swift */,
 				A97D39D92C488AB900A64422 /* ContentView.swift */,
+				A9C463782C60DCC100EC2453 /* GrindTime 1.mlmodel */,
+				A9C4637C2C60DCC100EC2453 /* GrindTime.mlmodel */,
 				A97D39DB2C488ABB00A64422 /* Assets.xcassets */,
 				A97D39DD2C488ABB00A64422 /* Preview Content */,
 				A9C4636D2C60207A00EC2453 /* WorkoutSessionView.swift */,
 				A9C4636F2C6020A600EC2453 /* WorkoutPlanView.swift */,
+				A9C463712C6041A900EC2453 /* ExerciseRecord.swift */,
 			);
 			path = GrindTime;
 			sourceTree = "<group>";
@@ -135,6 +150,49 @@
 			);
 			path = GrindTimeUITests;
 			sourceTree = "<group>";
+		};
+		A9C463752C60DCC100EC2453 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A9C463732C60DCC100EC2453 /* exercise_interactions.csv.json */,
+				A9C463742C60DCC100EC2453 /* exercise_training.csv.json */,
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
+		A9C463772C60DCC100EC2453 /* Model Containers */ = {
+			isa = PBXGroup;
+			children = (
+				A9C463762C60DCC100EC2453 /* GrindTime 1.json */,
+			);
+			path = "Model Containers";
+			sourceTree = "<group>";
+		};
+		A9C463792C60DCC100EC2453 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A9C4637A2C60DCC100EC2453 /* Snapshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Snapshots;
+			sourceTree = "<group>";
+		};
+		A9C4637C2C60DCC100EC2453 /* GrindTime.mlmodel */ = {
+			isa = PBXGroup;
+			children = (
+				A9C463752C60DCC100EC2453 /* Data Sources */,
+				A9C463772C60DCC100EC2453 /* Model Containers */,
+				A9C463792C60DCC100EC2453 /* Models */,
+				A9C4637A2C60DCC100EC2453 /* Snapshots */,
+				A9C4637B2C60DCC100EC2453 /* Project.json */,
+			);
+			path = GrindTime.mlmodel;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -240,8 +298,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C4637F2C60DCC100EC2453 /* GrindTime 1.json in Resources */,
+				A9C4637D2C60DCC100EC2453 /* exercise_interactions.csv.json in Resources */,
 				A97D39DF2C488ABB00A64422 /* Preview Assets.xcassets in Resources */,
 				A97D39DC2C488ABB00A64422 /* Assets.xcassets in Resources */,
+				A9C4637E2C60DCC100EC2453 /* exercise_training.csv.json in Resources */,
+				A9C463812C60DCC100EC2453 /* Project.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +330,9 @@
 			files = (
 				A97D3A022C491F3800A64422 /* NetworkManager.swift in Sources */,
 				A9C4636E2C60207A00EC2453 /* WorkoutSessionView.swift in Sources */,
+				A9C463722C6041A900EC2453 /* ExerciseRecord.swift in Sources */,
 				A97D39DA2C488AB900A64422 /* ContentView.swift in Sources */,
+				A9C463802C60DCC100EC2453 /* GrindTime 1.mlmodel in Sources */,
 				A97D39D82C488AB900A64422 /* GrindTimeApp.swift in Sources */,
 				A9C463702C6020A600EC2453 /* WorkoutPlanView.swift in Sources */,
 			);
