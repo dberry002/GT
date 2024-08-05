@@ -5,4 +5,7 @@ Personal Use: Working out has always been a significant part of my life, and ove
 
 Problems and Solutions:
 1. I knew I would not be able to get every single exercise down on the lists and to account for this I created an "Add Other Exercise" button that would allow the user to name the exercise and list the details that go along with it.
-2. 
+
+
+
+AI Integration: The use of AI in this project will allow for custom workouts to be created based on previous exercises used. This will allow for easy access to new workouts.
